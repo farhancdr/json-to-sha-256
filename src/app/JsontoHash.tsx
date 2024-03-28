@@ -35,7 +35,10 @@ export const JsonToHash: React.FC<ClientComponentProps> = ({}) => {
   };
 
   return (
-    <div className="flex flex-col items-center mb-4 h-screen my-20 w-full px-10 gap-4 w-60%">
+    <div className="flex flex-col items-center mb-4 h-screen my-20 w-[60%] px-10 gap-4">
+      <p className="font-bold text-xl text-center mb-5">
+        CONVERT RAW JSON TO SHA-256 hash with secret key
+      </p>
       <div className="w-full">
         <div className="mb-4">
           <label htmlFor="secretKey" className="mb-2">
